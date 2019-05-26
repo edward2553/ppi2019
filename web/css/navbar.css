@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Dosis');
+
+/*Iconos*/
+.icono-navbar{
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+    font-size: 17px;
+}
+span.icon-user{
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+    font-size: 17px;
+}
+
+
+
+
+.navbar_item{
+    color: #1e293d;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: inset 0px -5px 0 0px #28a745;
+    transition: all 500ms cubic-bezier(0.36, 0.42, 0.78, 0.81);
+    padding: 10px;
+    position: relative;
+    top: 12px;
+
+}
+.navbar_item:hover{
+    color: #ffffff;
+    background: #28a745;
+    border-radius: 5px;
+}
+.usuario_nav{
+    color: #ffffff;
+    background: #28a745;
+    border-radius: 5px;
+    cursor: default;
+}
+
+
+.linea-vertical{
+    border-left: 1px solid #28a745;
+    height: 46px;
+    position: relative;
+    margin: 0 25px;
+}
+
+.navbar_title{
+    text-decoration: none;
+    color: #1e293d;
+    font-size: 15px;
+    margin-top: 11px;
+}
+a.navbar_title:nth-child(2) {
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 10px;
+    box-shadow: inset 0px -5px 0 0px #28a745;
+    transition: all 500ms cubic-bezier(0.36, 0.42, 0.78, 0.81);
+}
+a.navbar_title:nth-child(2):hover {
+    color: #ffffff;
+    background: #28a745;
+    border-radius: 5px;
+}
+.nav{
+    margin-top: 10px !important;
+}
+.dropdown-menu{
+    margin: 0.125rem -87px 0 !important;
+}
+
+
+
+.botones_cards{
+    text-decoration: none;
+    color: #D62929; 
+    font-family: 'Dosis', sans-serif;
+}
+
+.breadcrumb_item{
+    color: black;
+    margin: 5px;
+}
+
+.breadcrumb{
+    margin: 10px;
+} 
+
+.txt_cedula{
+    position: relative;
+    top:24px;
+}
+
+.CredServStrong{
+    position: relative; 
+    right:18px; 
+
+}
+
+.rdBtn_automovil{
+
+    margin-right: 10px;
+}
+
+

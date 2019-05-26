@@ -1,0 +1,86 @@
+/*chrome safaria android ios*/
+
+::-webkit-scrollbar-track
+{
+  
+	background-color: #fff;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #fff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{    
+	background-color: #8492a6;
+	border: 0px solid #8492a6;
+    border-radius: 10px;
+}
+
+/*mozilla*/
+
+::-moz-scrollbar-track
+{
+	
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+::-moz-scrollbar
+{
+	width: 12px;
+	background-color: #fff;
+}
+
+::-moz-scrollbar-thumb
+{
+	background-color: #8492a6;
+	border: 0px solid #8492a6;
+    border-radius: 10px;
+}
+
+/*opera*/
+::-o-scrollbar-track
+{
+	
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+::-o-scrollbar
+{
+	width: 12px;
+	background-color: #fff;
+}
+
+::-o-scrollbar-thumb
+{
+	background-color: #8492a6;
+	border: 0px solid #8492a6;
+    border-radius: 10px;
+}
+
+/*explorer*/
+::-ms-scrollbar-track
+{
+	
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+::-ms-scrollbar
+{
+	width: 12px;
+	background-color: #fff;
+}
+
+::-ms-scrollbar-thumb
+{
+	background-color: #8492a6;
+	border: 0px solid #8492a6;
+    border-radius: 10px;
+}
