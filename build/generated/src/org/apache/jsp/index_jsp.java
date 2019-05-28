@@ -1,0 +1,272 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    <head>\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <link href=\"materialize-v1.0.0/materialize/css/materialize.css\" rel=\"stylesheet\" type=\"text/css\"/>\n");
+      out.write("        <link href=\"materialize-v1.0.0/materialize/css/materialize.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n");
+      out.write("        <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n");
+      out.write("\n");
+      out.write("        <title>Mis Tarjetas</title>\n");
+      out.write("    </head>\n");
+      out.write("    <body>\n");
+      out.write("\n");
+      out.write("    \n");
+      out.write("        <a href=\"#\" data-target=\"slide-out\" class=\"sidenav-trigger\"><i class=\"material-icons\">menu</i></a>\n");
+      out.write("\n");
+      out.write("        <div class=\"navbar-fixed\">\n");
+      out.write("            <nav class=\"blue-grey darken-3\">\n");
+      out.write("                <div class=\"nav-wrapper\">\n");
+      out.write("                    \n");
+      out.write("                    <a href=\"#!\" class=\"brand-logo \"><i class=\"material-icons\">all_inclusive</i>Talentos</a> \n");
+      out.write("\n");
+      out.write("                    <ul class=\"right hide-on-med-and-down\">\n");
+      out.write("\n");
+      out.write("                        <li>\n");
+      out.write("                            <a class=\"waves-effect waves-light btn light-green accent-4\">Inicio</a>\n");
+      out.write("                        </li>\n");
+      out.write("                        <li>\n");
+      out.write("                            <a href=\"#\">gemelo</a>\n");
+      out.write("                        </li>\n");
+      out.write("                        <li>\n");
+      out.write("                            <a class=\"dropdown-trigger\" href=\"#\" data-target=\"opciones\">opciones\n");
+      out.write("                                <i class=\"material-icons right\">arrow_drop_down</i>\n");
+      out.write("                            </a>\n");
+      out.write("                        </li>\n");
+      out.write("                    </ul>\n");
+      out.write("                </div>\n");
+      out.write("            </nav>\n");
+      out.write("        </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("        <ul id=\"opciones\" class=\"dropdown-content\">\n");
+      out.write("            <li><a href=\"#\">Perfil</a></li>\n");
+      out.write("            <li><a href=\"#\">Mis Tarjetas</a></li>\n");
+      out.write("            <li><a href=\"TarjetasGuardadas.jsp\">Tarjetas Guardadas</a></li>\n");
+      out.write("            <li class=\"divider\"></li>\n");
+      out.write("            <li><a href=\"#\">Salir</a></li>\n");
+      out.write("        </ul>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("        <div class=\"container\">       \n");
+      out.write("            <div class=\"row\">\n");
+      out.write("\n");
+      out.write("                <div class=\"col s12 m4\">\n");
+      out.write("                    <div class=\"card Medium\">\n");
+      out.write("                        <div class=\"card-image\">\n");
+      out.write("\n");
+      out.write("                            <div class=\"card-panel white-text   blue-grey darken-4\">Titulo de la tarjeta</div>\n");
+      out.write("                            <a class=\"btn-floating halfway-fab waves-effect waves-light btn  blue darken-1 modal-trigger tooltipped\"\n");
+      out.write("                               href=\"#modal\" data-position=\"bottom\" data-tooltip=\"agregar nueva tarjeta\"><i class=\"material-icons\">add</i></a>\n");
+      out.write("                        </div>\n");
+      out.write("                        <div class=\"card-content \">\n");
+      out.write("                            <p>Descripcion de la tarjeta</p>\n");
+      out.write("                            <br>\n");
+      out.write("                            <br>\n");
+      out.write("                            <br>\n");
+      out.write("                            <br>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("                        </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("                        <div class=\"card-action center\">\n");
+      out.write("                            <p class=\"center\">Precio :  $</p>\n");
+      out.write("                            <p class=\"center\">contacto : ..</p>\n");
+      out.write("                            <br>\n");
+      out.write("\n");
+      out.write("                        </div>\n");
+      out.write("                    </div>\n");
+      out.write("                </div>\n");
+      out.write("                <div class=\"col s12 m4\">\n");
+      out.write("                    <div class=\"card Medium\">\n");
+      out.write("                        <div class=\"card-image\">\n");
+      out.write("                            <div class=\"card-panel white-text   blue-grey darken-4\">ciencias</div>\n");
+      out.write("\n");
+      out.write("                        </div>\n");
+      out.write("                        <div class=\"card-content\">\n");
+      out.write("                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>                         \n");
+      out.write("                        </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("                        <div class=\"card-action center\">\n");
+      out.write("                            <p class=\"center\">Precio : 400$</p>\n");
+      out.write("                            <p class=\"center\">contacto : 4745874</p>\n");
+      out.write("                            <a class=\"waves-effect waves-light btn   teal accent-4\">editar</a>\n");
+      out.write("                            <a class=\"waves-effect waves-light btn    red darken-1\" onclick=\"return confirm('desea eliminar esta tarjeta?')\">eliminar</a>\n");
+      out.write("\n");
+      out.write("                        </div>\n");
+      out.write("                    </div>\n");
+      out.write("                </div>\n");
+      out.write("\n");
+      out.write("                <div class=\"col s12 m4\">\n");
+      out.write("                    <div class=\"card Medium\">\n");
+      out.write("                        <div class=\"card-image\">\n");
+      out.write("                            <div class=\"card-panel white-text   blue-grey darken-4\">Español</div>\n");
+      out.write("                        </div>\n");
+      out.write("                        <div class=\"card-content\">\n");
+      out.write("                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>\n");
+      out.write("\n");
+      out.write("                        </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("                        <div class=\"card-action center\">\n");
+      out.write("                            <p class=\"center\">Precio : 200$</p>\n");
+      out.write("                            <p class=\"center\">contacto : 1475547</p>\n");
+      out.write("                            <a class=\"waves-effect waves-light btn   teal accent-4\">editar</a>\n");
+      out.write("                            <a class=\"waves-effect waves-light btn    red darken-1\" onclick=\"return confirm('desea eliminar esta tarjeta?')\">eliminar</a>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("                        </div>\n");
+      out.write("                    </div>\n");
+      out.write("                </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("                <div id=\"modal\" class=\"modal modal-fixed-footer\">\n");
+      out.write("                    <div class=\"modal-content\">\n");
+      out.write("                        <h4 class=\"blue-grey-text grey-text text-darken-3 flow-text\">Informacion tarjeta</h4>\n");
+      out.write("\n");
+      out.write("                        <div class=\"row\">\n");
+      out.write("\n");
+      out.write("                            <div class=\"input-field col s12\">\n");
+      out.write("                                <i class=\"material-icons prefix\">title</i>\n");
+      out.write("                                <input  id=\"titulo\" type=\"text\" class=\"validate\">\n");
+      out.write("                                <label class=\"active\" for=\"titulo\">Titulo Tarjeta</label>\n");
+      out.write("                            </div>\n");
+      out.write("                        </div>\n");
+      out.write("                        <div class=\"row\">\n");
+      out.write("                            <div class=\"input-field col s12\">\n");
+      out.write("                                <i class=\"material-icons prefix\">create</i>\n");
+      out.write("                                <textarea id=\"descripcion\" class=\"materialize-textarea\" data-length=\"120\"></textarea>\n");
+      out.write("                                <label for=\"descripcion\">Descripcion</label>\n");
+      out.write("                            </div>\n");
+      out.write("                        </div>\n");
+      out.write("                        <div class=\"row\">\n");
+      out.write("                            <div class=\"input-field col s12\">\n");
+      out.write("                                <i class=\"material-icons prefix\">attach_money</i>\n");
+      out.write("                                <textarea id=\"precio\" type=\"number\" class=\"materialize-textarea\" data-length=\"120\"></textarea>\n");
+      out.write("                                <label for=\"precio\">Precio</label>\n");
+      out.write("                            </div>\n");
+      out.write("                        </div>\n");
+      out.write("                        <div class=\"row\">\n");
+      out.write("                            <div class=\"input-field col s12\">\n");
+      out.write("                                <i class=\"material-icons prefix\">contact_phone</i>\n");
+      out.write("                                <textarea id=\"contacto\" class=\"materialize-textarea\" data-length=\"120\"></textarea>\n");
+      out.write("                                <label for=\"contacto\">Contacto</label>\n");
+      out.write("                            </div>\n");
+      out.write("                        </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("                    </div>\n");
+      out.write("                    <div class=\"modal-footer  blue-grey darken-3\">\n");
+      out.write("                        <button class=\" modal-close btn waves-effect waves-light red darken-3\" type=\"button\" name=\"action\">cerrar\n");
+      out.write("                            <i class=\"material-icons right\">close</i>\n");
+      out.write("                        </button>\n");
+      out.write("                        <button class=\" modal-close btn waves-effect waves-light\" type=\"submit\" name=\"action\">enviar\n");
+      out.write("                            <i class=\"material-icons right\">send</i>\n");
+      out.write("                        </button>\n");
+      out.write("                    </div>\n");
+      out.write("\n");
+      out.write("                </div>\n");
+      out.write("\n");
+      out.write("            </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("        </div>\n");
+      out.write("\n");
+      out.write("        <script src=\"materialize-v1.0.0/materialize/js/materialize.js\" type=\"text/javascript\"></script>\n");
+      out.write("        <script src=\"materialize-v1.0.0/materialize/js/materialize.min.js\" type=\"text/javascript\"></script>\n");
+      out.write("        <script>\n");
+      out.write("                                document.addEventListener('DOMContentLoaded', function () {\n");
+      out.write("                                    var elems = document.querySelectorAll('.modal');\n");
+      out.write("                                    var instances = M.Modal.init(elems);\n");
+      out.write("\n");
+      out.write("                                    var elems = document.querySelectorAll('.sidenav');\n");
+      out.write("                                    var instances = M.Sidenav.init(elems);\n");
+      out.write("\n");
+      out.write("                                    var elems = document.querySelectorAll('.tooltipped');\n");
+      out.write("                                    var instances = M.Tooltip.init(elems);\n");
+      out.write("\n");
+      out.write("                                    var elems = document.querySelectorAll('.tap-target');\n");
+      out.write("                                    var instances = M.TapTarget.init(elems);\n");
+      out.write("\n");
+      out.write("                                    var elems = document.querySelectorAll('.sidenav');\n");
+      out.write("                                    var instances = M.Sidenav.init(elems);\n");
+      out.write("\n");
+      out.write("                                    var elems = document.querySelectorAll('.dropdown-trigger');\n");
+      out.write("                                    var instances = M.Dropdown.init(elems);\n");
+      out.write("\n");
+      out.write("                                    var elems = document.querySelectorAll('.fixed-action-btn');\n");
+      out.write("                                    var instances = M.FloatingActionButton.init(elems, {\n");
+      out.write("                                        direction: 'left',\n");
+      out.write("                                        hoverEnabled: false\n");
+      out.write("                                    });\n");
+      out.write("\n");
+      out.write("                                });\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("        </script>\n");
+      out.write("\n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
